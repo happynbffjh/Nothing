@@ -226,7 +226,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
 
     keyboard = [
-        [InlineKeyboardButton("✉️ Contact Owner", url="https://t.me/@RTB_00")]]
+        [InlineKeyboardButton("✉️ Contact Owner", url="https://t.me/RTB_00")]]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_markdown(welcome_message, reply_markup=reply_markup)
 
