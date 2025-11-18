@@ -216,7 +216,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         save_data(data)
 
     welcome_message = (
-        "☁️ *WELCOME TO HEXBREAK VAULT GIVEAWAY BOT* ☁️\n\n"
+        "☁️ *WELCOME TO FIESTA VAULT GIVEWAY BOT* ☁️\n\n"
         "☠️ *Claim Your Rewards Now!* ☠️\n\n"
         "How to redeem:\n"
         "• Send `/redeem <CODE>` (example: PREFIX-ABCD-1234-XYZ9)\n"
